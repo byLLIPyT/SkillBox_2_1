@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB49128A25A9AF6000591722 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49128925A9AF6000591722 /* Five.swift */; };
+		AB49128C25A9AF9900591722 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49128B25A9AF9900591722 /* Eight.swift */; };
+		AB49128E25A9B62A00591722 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB49128D25A9B62A00591722 /* Four.swift */; };
 		ABC07A5E25A8EDFF002D32CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC07A5D25A8EDFF002D32CD /* AppDelegate.swift */; };
 		ABC07A6025A8EDFF002D32CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC07A5F25A8EDFF002D32CD /* SceneDelegate.swift */; };
-		ABC07A6225A8EDFF002D32CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC07A6125A8EDFF002D32CD /* ViewController.swift */; };
-		ABC07A6525A8EDFF002D32CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC07A6325A8EDFF002D32CD /* Main.storyboard */; };
 		ABC07A6725A8EE06002D32CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC07A6625A8EE06002D32CD /* Assets.xcassets */; };
 		ABC07A6A25A8EE06002D32CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC07A6825A8EE06002D32CD /* LaunchScreen.storyboard */; };
+		ABC07A7225A8F448002D32CD /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC07A7125A8F448002D32CD /* Chess.swift */; };
+		ABC07A7425A90959002D32CD /* FlyAndDrawGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC07A7325A90959002D32CD /* FlyAndDrawGame.swift */; };
+		ABC07A7625A90A87002D32CD /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC07A7525A90A87002D32CD /* Seven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB49128925A9AF6000591722 /* Five.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five.swift; sourceTree = "<group>"; };
+		AB49128B25A9AF9900591722 /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
+		AB49128D25A9B62A00591722 /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
 		ABC07A5A25A8EDFF002D32CD /* SkillBox_2_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillBox_2_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC07A5D25A8EDFF002D32CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC07A5F25A8EDFF002D32CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABC07A6125A8EDFF002D32CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABC07A6425A8EDFF002D32CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABC07A6625A8EE06002D32CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC07A6925A8EE06002D32CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABC07A6B25A8EE06002D32CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC07A7125A8F448002D32CD /* Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
+		ABC07A7325A90959002D32CD /* FlyAndDrawGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyAndDrawGame.swift; sourceTree = "<group>"; };
+		ABC07A7525A90A87002D32CD /* Seven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		ABC07A5C25A8EDFF002D32CD /* SkillBox_2_1 */ = {
 			isa = PBXGroup;
 			children = (
+				ABC07A7725A90A9A002D32CD /* Tasks */,
 				ABC07A5D25A8EDFF002D32CD /* AppDelegate.swift */,
 				ABC07A5F25A8EDFF002D32CD /* SceneDelegate.swift */,
-				ABC07A6125A8EDFF002D32CD /* ViewController.swift */,
-				ABC07A6325A8EDFF002D32CD /* Main.storyboard */,
 				ABC07A6625A8EE06002D32CD /* Assets.xcassets */,
 				ABC07A6825A8EE06002D32CD /* LaunchScreen.storyboard */,
 				ABC07A6B25A8EE06002D32CD /* Info.plist */,
 			);
 			path = SkillBox_2_1;
+			sourceTree = "<group>";
+		};
+		ABC07A7725A90A9A002D32CD /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				AB49128D25A9B62A00591722 /* Four.swift */,
+				AB49128925A9AF6000591722 /* Five.swift */,
+				ABC07A7125A8F448002D32CD /* Chess.swift */,
+				ABC07A7325A90959002D32CD /* FlyAndDrawGame.swift */,
+				ABC07A7525A90A87002D32CD /* Seven.swift */,
+				AB49128B25A9AF9900591722 /* Eight.swift */,
+			);
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,6 @@
 			files = (
 				ABC07A6A25A8EE06002D32CD /* LaunchScreen.storyboard in Resources */,
 				ABC07A6725A8EE06002D32CD /* Assets.xcassets in Resources */,
-				ABC07A6525A8EDFF002D32CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC07A6225A8EDFF002D32CD /* ViewController.swift in Sources */,
+				ABC07A7225A8F448002D32CD /* Chess.swift in Sources */,
+				AB49128E25A9B62A00591722 /* Four.swift in Sources */,
+				AB49128A25A9AF6000591722 /* Five.swift in Sources */,
+				ABC07A7625A90A87002D32CD /* Seven.swift in Sources */,
+				ABC07A7425A90959002D32CD /* FlyAndDrawGame.swift in Sources */,
+				AB49128C25A9AF9900591722 /* Eight.swift in Sources */,
 				ABC07A5E25A8EDFF002D32CD /* AppDelegate.swift in Sources */,
 				ABC07A6025A8EDFF002D32CD /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABC07A6325A8EDFF002D32CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABC07A6425A8EDFF002D32CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABC07A6825A8EE06002D32CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
