@@ -17,7 +17,7 @@ enum Position {
 
 protocol ChessDelegate {
     
-    func showStepComputer() -> chessPosition
+    func showStepComputer(lastPosition: chessPosition) -> chessPosition
 }
 
 protocol AssesmentPosition {
@@ -47,11 +47,37 @@ class ChessGame {
             positionWhite = ("A", 5)
             //ход компьютера
             if let delegate = delegate {
-                positionBlack = delegate.showStepComputer()
+                positionBlack = delegate.showStepComputer(lastPosition: positionBlack)
             }
             currentAssesment = assesmentDelegate?.returnAssesment(newPosition: [positionWhite, positionBlack])
         }
                 
+    }
+}
+
+struct ChessDrive: ChessDelegate {
+    func showStepComputer(lastPosition: chessPosition) -> chessPosition {
+        let newPosition = lastPosition
+        return newPosition
+    }
+    
+}
+
+struct Assesment: AssesmentPosition {
+    var assesment: Position
+    
+    func returnAssesment(newPosition: [chessPosition]) -> Position {
+        var result: Position = .play
+        
+        let newResult = Int.random(in: 1...3)
+        if newResult == 1 {
+            result = .play
+        } else if newResult == 2 {
+            result = .shah
+        } else {
+            result = .mat
+        }
+    return result
     }
 }
 
