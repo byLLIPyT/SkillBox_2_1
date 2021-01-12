@@ -25,13 +25,16 @@ extension UIView {
     }
 }
 
+
 extension Comparable {
     
-    func bound(min: Int, max: Int) -> Int {
-        let newRand = Int.random(in: min...max)
+    func bound(min: Self, max: Self) -> Self {
+        
+        let newRand: Self = max
         return newRand
     }
 }
+
 
 extension Array where Element == Int {
     func sum() -> Int {
